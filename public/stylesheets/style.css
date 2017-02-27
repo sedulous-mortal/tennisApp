@@ -1,5 +1,5 @@
 header {
-    background-color: teal;
+    background-color: #8fb339;
     color: white;
 }
 
@@ -11,18 +11,39 @@ main {
     flex: 1 0 auto;
 }
 
+.index-wrap {
+    background-color: #fe9000;
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+    border: 2px solid #333;
+    border-radius: 20px;
+    height: 20vh;
+}
+
 footer {
     background-color: #333;
     color: white;
+    height: 8vh;
+    line-height: 4vh;
 }
 
 a {
-    color: #00B7FF;
+    color: #555;
+    line-height: 5vh;
+    font-size: 3vh;
+}
+
+footer a {
+    color: white;
+    line-height: 4vh;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    background-color: #6b3021;
+    text-align: center;
 }
 
 .orange {
