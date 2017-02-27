@@ -1,0 +1,46 @@
+header {
+    background-color: teal;
+    color: white;
+}
+
+header .container h1 {
+    font-size: 36px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    color: #00B7FF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.orange {
+    background-color: #fe9000;
+}
+
+.green {
+    background-color: #8fb339;
+}
+
+.yellow {
+    background-color: #f4ed7c;
+}
+
+.brown {
+    background-color: #6b3021;
+}
+
+.lightblue {
+    background-color: #a5dde2;
+}

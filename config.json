@@ -1,0 +1,12 @@
+{
+  "development": {
+    "username": "hax",
+    "password": null,
+    "database": "plantme_pro_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
