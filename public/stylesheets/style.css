@@ -5,20 +5,43 @@ header {
 
 header .container h1 {
     font-size: 36px;
+    width: 100vw;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-.index-wrap {
+.input-wrap {
     background-color: #fe9000;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 4vh;
     border: 2px solid #333;
     border-radius: 20px;
-    height: 20vh;
+    height: 50vh;
+    width: 30vw;
+    padding-top: 2vh;
+}
+
+input {
+    line-height: 3vh;
+    padding: 1vh;
+    margin: 1vh;
+    color: black;
+    font-size: 2vh;
+}
+
+button a {
+    color: #555;
+    padding: 1vh;
+}
+
+button {
+    background-color: white;
+    border-radius: 15px;
+    margin: 3vh 0;
 }
 
 footer {
@@ -26,6 +49,7 @@ footer {
     color: white;
     height: 8vh;
     line-height: 4vh;
+    width: 100vw;
 }
 
 a {
@@ -40,8 +64,10 @@ footer a {
 }
 
 body {
+    color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #6b3021;
     text-align: center;
 }

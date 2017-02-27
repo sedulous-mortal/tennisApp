@@ -8,6 +8,7 @@ This app was designed to allow gardeners to learn about best planting times and 
 - React
 - Express
 - PostgreSQL
+- Sequelize
 - Flexbox
 
 ## User Stories
