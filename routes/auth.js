@@ -25,9 +25,9 @@ router.get('/login', authHelpers.loginRedirect, (req, res) => {
 //allows a user to login only if they are really in the database
 //otherwise asks them to login again
 router.post('/login', passport.authenticate('local', {
-    successRedirect: '/user',
-    failureRedirect: '/auth/login',
-    failureFlash: true
+    successRedirect: '/user'
+    , failureRedirect: '/auth/login'
+    , failureFlash: true
 }));
 //gets the logout page and redirects to homepage
 router.get('/logout', (req, res) => {
