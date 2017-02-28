@@ -23,7 +23,8 @@ function createUser(req, res) {
         username: req.body.username,
         password: hash,
         firstName: req.body.firstName,
-        email: req.body.email
+        email: req.body.email,
+        plants: req.body.plants
     }).then(() => {
         res.redirect('/');
     });

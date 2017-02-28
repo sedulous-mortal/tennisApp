@@ -5,7 +5,6 @@ This app was designed to allow gardeners to learn about best planting times and 
 
 ## Tech Stack Used
 
-- React
 - Express
 - PostgreSQL
 - Sequelize

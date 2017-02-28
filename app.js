@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 // add new express-session and passport middleware here
-app.use(require('express-session')({
+app.use(session({
     secret: process.env.SECRET_KEY,
     resave: false,
     saveUninitialized: true

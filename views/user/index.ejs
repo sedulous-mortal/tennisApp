@@ -3,16 +3,21 @@
     <body>
         <% include ../partials/header.ejs %>
             <main>
-                <div class="input-wrap">
+                <div class="input-wrap" id="userInfo">
                     <p>Welcome,
                         <%= user.firstName %>
                     </p>
-                    <p> Username:
-                        <%= user.login %>
-                    </p>
                     <p> Email:
                         <%= user.email %>
-                    </p> <a href="/logout">LOG OUT</a> </div>
+                    </p>
+                    <a href="/auth/logout">LOG OUT</a>
+                </div>
+                <div class="plants">
+                    <p> Your plants:
+                        <!--plants that come from db go here -->
+                        <%= user.plants %>
+                    </p>
+                </div>
             </main>
             <% include ../partials/footer.ejs %>
     </body>

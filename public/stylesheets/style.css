@@ -4,7 +4,7 @@ header {
 }
 
 header .container h1 {
-    font-size: 36px;
+    font-size: 4vh;
     width: 100vw;
 }
 
@@ -21,8 +21,9 @@ main {
     border: 2px solid #333;
     border-radius: 20px;
     height: 50vh;
-    width: 30vw;
-    padding-top: 2vh;
+    width: 50vw;
+    padding: 2vh;
+    font-size: 4vh;
 }
 
 input {
@@ -42,6 +43,12 @@ button {
     background-color: white;
     border-radius: 15px;
     margin: 3vh 0;
+}
+
+#userInfo {
+    height: auto;
+    width: auto;
+    color: #333;
 }
 
 footer {
@@ -70,6 +77,10 @@ body {
     align-items: center;
     background-color: #6b3021;
     text-align: center;
+}
+
+p {
+    font-size: 3vh;
 }
 
 .orange {
