@@ -2,6 +2,9 @@
   "name": "plantmepro",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "7.5.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.0",
     "body-parser": "~1.15.2",
