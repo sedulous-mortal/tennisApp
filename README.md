@@ -1,7 +1,9 @@
-# Plant Me, Pro!
+# Tennis Match
+For ILIS International
 
 ## What is it?
-This app allows gardeners to keep track of what plants they are growing when they register. 
+
+This app allows tennis players to match up with and record the results of games with other players.
 
 ## Tech Stack Used
 
@@ -13,7 +15,4 @@ This app allows gardeners to keep track of what plants they are growing when the
 
 ## User Stories
 
-[Trello](https://trello.com/b/ODlhLY44/plantme-pro)
-
-## Future Of This App
-I would like to add timers to help determine when a gardener's plants will sprout or be ready for harvest.
+Trello coming soon!
