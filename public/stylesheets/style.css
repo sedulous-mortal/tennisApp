@@ -1,5 +1,5 @@
 header {
-    background-color: #8fb339;
+    background-color: darkgreen;
     color: white;
 }
 
@@ -12,8 +12,13 @@ main {
     flex: 1 0 auto;
 }
 
+#rackets{
+    height: 100px;
+    margin-top: 30px;
+}
+
 .input-wrap {
-    background-color: #fe9000;
+    background-color: #8fb339;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,11 +57,11 @@ button {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(0,100,0,0.3);
     color: white;
-    height: 8vh;
-    line-height: 4vh;
+    line-height: 5vh;
     width: 100vw;
+    font-size: 4vh;
 }
 
 a {
@@ -75,16 +80,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #6b3021;
+    background-color: yellowgreen;
     text-align: center;
 }
 
 p {
     font-size: 3vh;
-}
-
-.orange {
-    background-color: #fe9000;
 }
 
 .green {
@@ -93,12 +94,4 @@ p {
 
 .yellow {
     background-color: #f4ed7c;
-}
-
-.brown {
-    background-color: #6b3021;
-}
-
-.lightblue {
-    background-color: #a5dde2;
 }

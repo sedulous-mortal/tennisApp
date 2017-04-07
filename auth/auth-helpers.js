@@ -14,7 +14,7 @@ function loginRedirect(req, res, next) {
     return next();
 }
 
-// create user in db
+// create user in db, protect their passwords with salting and hashing
 function createUser(req, res) {
     const salt = bcrypt.genSaltSync();
     const hash = bcrypt.hashSync(req.body.password, salt);
@@ -24,13 +24,13 @@ function createUser(req, res) {
         password: hash,
         firstName: req.body.firstName,
         email: req.body.email,
-        plants: req.body.plants
+        rating: req.body.rating
     }).then(() => {
         res.redirect('/');
     });
 }
 
-// protects route from non-logged in users
+// protects route from non-logged-in users
 function loginRequired(req, res, next) {
     if (!req.user) return res.status(401).json({
         status: 'Please log in'

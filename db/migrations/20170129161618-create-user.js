@@ -28,8 +28,8 @@ module.exports = {
                 allowNull: false,
                 type: Sequelize.DATE
             },
-            plants: {
-                type: Sequelize.STRING(128)
+            rating: {
+                type: Sequelize.FLOAT
             }
         });
     },
