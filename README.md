@@ -13,6 +13,6 @@ This app allows tennis players to match up with and record the results of games 
 - Passport
 - Flexbox
 
-## User Stories
+## Contact Us
 
-Trello coming soon!
+If you have suggestions for our app, please contact us at <a href="mailto:TennisMatchByILIS@gmail.com">TennisMatchByILIS@gmail.com</a>. Thanks!

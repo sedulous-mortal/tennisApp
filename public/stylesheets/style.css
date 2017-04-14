@@ -17,6 +17,24 @@ main {
     margin-top: 30px;
 }
 
+.match{
+    line-height: 2vh;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 3px;
+}
+
+.even{
+    background-color: skyblue;
+}
+
+.learn{
+    background-color: orange;
+}
+
+.choiceBox{
+    display: inline block;
+}
 .input-wrap {
     background-color: #8fb339;
     display: flex;
